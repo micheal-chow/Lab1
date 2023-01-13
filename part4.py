@@ -2,6 +2,6 @@ import requests
  
 print(requests.__version__)
 
-r = requests.get("http://www.google.com/")
+r = requests.get("https://raw.githubusercontent.com/micheal-chow/Lab1/master/part4.py")
 
-print(r.status_code)
+print(r.text)
